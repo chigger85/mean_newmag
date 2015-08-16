@@ -1,0 +1,24 @@
+{
+  "name": "newmag_mean",
+  "version": "1.0.0",
+  "description": "MEAN stack for new mag website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.0",
+    "mongodb": "^2.0.35",
+    "angular": "^1.4.1",
+    "mongojs": "^1.0.2",
+    "body-parser": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "newmag3"
+  },
+  "author": "Stephen Kyriacou",
+  "license": "ISC"
+}
