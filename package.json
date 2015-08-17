@@ -1,24 +1,46 @@
 {
-  "name": "newmag_mean",
-  "version": "1.0.0",
-  "description": "MEAN stack for new mag website",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.13.0",
-    "mongodb": "^2.0.35",
-    "angular": "^1.4.1",
-    "mongojs": "^1.0.2",
-    "body-parser": "^1.13.2"
+  "name": "newmag2",
+  "version": "0.0.0",
+  "dependencies": {},
+  "repository": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^2.0.0",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-imagemin": "^0.9.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-file-creator": "^0.1.2",
+    "grunt-filerev": "^2.1.2",
+    "grunt-google-cdn": "^0.4.3",
+    "grunt-karma": "*",
+    "grunt-mkdir": "^0.1.2",
+    "grunt-newer": "^0.8.0",
+    "grunt-ng-annotate": "^0.9.2",
+    "grunt-shell": "^1.1.1",
+    "grunt-svgmin": "^2.0.0",
+    "grunt-usemin": "^2.6.2",
+    "grunt-wiredep": "^2.0.0",
+    "jshint-stylish": "^1.0.0",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0"
   },
-  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "grunt test"
   },
-  "repository": {
-    "type": "git",
-    "url": "newmag3"
-  },
-  "author": "Stephen Kyriacou",
-  "license": "ISC"
+  "scripts": {
+    "postinstall": "bower install"
+  }
 }
